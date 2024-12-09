@@ -8,9 +8,9 @@ const Skills = () => {
       <h2 className="text-5xl font-bold mt-2">MY SKILLS</h2>
       <p className="mb-4 mt-3 text-gray-800 font-semibold">Basic skills programming</p>
 
-      <div className="flex flex-wrap justify-center items-center gap-3 mx-2 mb-5">
+      <div className="flex flex-wrap justify-center items-center gap-3 mx-2 mb-5 ">
         {/* HTML Skill */}
-        <div className="flex flex-col justify-center items-center p-3 w-24 h-28 overflow-hidden bg-white rounded-lg shadow-md">
+        <div className="flex flex-col justify-center items-center p-3 w-24 h-28 overflow-hidden bg-white rounded-lg shadow-md ">
           <Image src="/asset/icon/html.png" alt="HTML" width={50} height={50} className="object-fill" />
           <p className="text-sm mt-2 font-bold text-gray-600">HTML</p>
         </div>
@@ -46,7 +46,7 @@ const Skills = () => {
 
         {/* NWordpress.js Skill */}
         <div className="flex flex-col justify-center items-center p-4 w-24 h-28 overflow-hidden bg-white rounded-lg shadow-md">
-          <Image src="/asset/icon/wordpress.png" alt="WORDPRESS" width={50} height={50} className="object-fill" />
+          <Image src="/asset/icon/wordpress.png" alt="WORDPRESS" width={60} height={60} className="object-fill" />
           <p className="text-sm mt-2 font-bold text-gray-600">WORDPRESS</p>
         </div>
 
@@ -96,8 +96,8 @@ const Skills = () => {
       <div className="flex flex-wrap justify-center items-center gap-3 mx-2 mb-5">
         {/* Google Ads Skill */}
         <div className="flex flex-col justify-center items-center w-24 h-32 overflow-hidden p-4 bg-white rounded-lg shadow-md">
-          <Image src="/asset/icon/photo.png" alt="Photograpy" width={50} height={50} className="object-fill" />
-          <p className="text-sm mt-2 font-bold text-gray-600">Photograpy</p>
+          <Image src="/asset/icon/photo.webp" alt="Photograpy" width={70} height={70} className="object-fill" />
+          <p className="text-sm mt-1 font-bold text-gray-600">Photograpy</p>
         </div>
 
         {/* Meta Ads Skill */}

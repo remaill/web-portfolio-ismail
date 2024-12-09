@@ -14,7 +14,7 @@ export default function Home() {
       <SideBar/>
      
       {/* Main Content */}
-      <div className="flex-1 min-h-screen w-full">
+      <div className="flex-1 min-h-screen w-full bg-gray-300">
         <MainBackground/>
         {/* Konten yang akan di-scroll */}
         <AboutMe/>

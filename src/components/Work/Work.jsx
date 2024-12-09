@@ -18,7 +18,7 @@ const Work = () => {
                 objectFit="cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 h-auto md:h-60">
               <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Anime List Website
               </h5>
@@ -51,7 +51,7 @@ const Work = () => {
                 objectFit="cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 h-auto md:h-60">
               <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Google Ads & Meta Ads
               </h5>
@@ -83,7 +83,7 @@ const Work = () => {
               />
             </div>
             
-            <div className="p-6">
+            <div className="p-6 h-auto md:h-60">
               <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Photograpy
               </h5>
@@ -103,6 +103,40 @@ const Work = () => {
             </div>
           </div>
         </div>
+
+         {/* Web Search Movie */}
+         <div>
+          <div className="flex sm:w-96 w-72 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div className="mx-4 -mt-6 h-56 overflow-hidden rounded-xl bg-clip-border text-white shadow-lg relative">
+              <Image
+                src="/asset/image/movies.jpg"
+                alt="Web Search Movie"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+            
+            <div className="p-6 h-auto md:h-60">
+              <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                Web Search Movie
+              </h5>
+              <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+              I developed this website using React.js as a learning initiative to improve my skills in API integration development.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <a href="https://web-movie-search.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <button
+                  className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40"
+                  type="button"
+                >
+                  See More
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
         {/* Smudge Painting */}
         <div>
           <div className="flex sm:w-96 w-72 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -114,7 +148,7 @@ const Work = () => {
                 objectFit="cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 h-auto md:h-60">
               <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Smudge Painting
               </h5>
@@ -135,39 +169,7 @@ const Work = () => {
           </div>
         </div>
 
-        {/* Web Search Movie */}
-        <div>
-          <div className="flex sm:w-96 w-72 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-            <div className="mx-4 -mt-6 h-56 overflow-hidden rounded-xl bg-clip-border text-white shadow-lg relative">
-              <Image
-                src="/asset/image/movies.jpg"
-                alt="Web Search Movie"
-                layout="fill"
-                objectFit="cover"
-              />
-            </div>
-            
-            <div className="p-6">
-              <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-                Web Search Movie
-              </h5>
-              <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                I created this website using React.js just for learning purposes.
-              </p>
-            </div>
-            <div className="p-6 pt-0">
-              <a href="https://web-movie-search.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <button
-                  className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40"
-                  type="button"
-                >
-                  See More
-                </button>
-              </a>
-            </div>
-          </div>
-        </div>
-
+       
         {/* Graphic Design */}
         <div>
           <div className="flex sm:w-96 w-72 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -179,7 +181,7 @@ const Work = () => {
                 objectFit="cover"
               />
             </div>
-            <div className="p-6">
+            <div className="p-6 h-auto md:h-60">
               <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                 Graphic Design
               </h5>

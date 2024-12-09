@@ -6,10 +6,10 @@ import ResumeDownload from './ResumeDownload'
 const AboutMe = () => {
   return (
     <div id="about" className="p-2 md:p-5 bg-gray-300 text-gray-800">
-     <section className="p-5 bg-white rounded-lg shadow-xl mb-4">
+     <section className="p-5 bg-white rounded-lg shadow-xl mb-10">
       <h1 className="text-4xl font-bold mb-4">About me</h1>
       <p className="text-gray-600 mb-8">
-      I am an experienced advertiser who is also interested and self-taught in programming and photography. With my skills as a web developer, I can create attractive websites. Proficiency in graphic design software such as Photoshop, Illustrator, and CorelDRAW enriches my advertising creativity. In addition, basic skills in video software such as Premiere Pro, After Effects, and Blender 3D add dimension to my marketing strategy, creating dynamic and impactful visual content..
+      I am an experienced advertiser who is also interested and self-taught in programming and photography. With my skills as a web developer, I can create attractive websites. Proficiency in graphic design software such as Photoshop, Illustrator, and CorelDRAW enriches my advertising creativity. In addition, basic skills in video software such as Premiere Pro, After Effects, and Blender 3D add dimension to my marketing strategy, creating dynamic and impactful visual content.
       </p>
 
       <div className="flex flex-col md:flex-row gap-8 justify-start ">
@@ -39,6 +39,7 @@ const AboutMe = () => {
             <p><strong>Email:</strong> ismail.est2002@gmail.com</p>
             <p><strong>City:</strong> Bogor, Indonesia</p>
             <p><strong>Language:</strong> English, Indonesia</p>
+            <p><strong>Hobby:</strong> Learn something new</p>
             <ResumeDownload/>
           </div>
           
