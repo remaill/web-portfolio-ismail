@@ -14,8 +14,8 @@ const Work = () => {
               <Image
                 src="/asset/image/animelist.jpg"
                 alt="Animelist"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
             <div className="p-6 h-auto md:h-60">
@@ -25,10 +25,10 @@ const Work = () => {
               <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
               AnimeList, built with Next.js, is a learning initiative focused on integrating APIs and MySQL using Prisma ORM, enhancing my skills in data management and backend integration.
               </p>
-              <p className="block font-sans text-sm font-light leading-relaxed text-inherit antialiased">* Note: The login feature is no longer functional due to the database server expiration.</p>
+              <p className="block font-sans text-sm font-light leading-relaxed text-inherit antialiased mt-2">* Note: The login feature is no longer functional due to the database server expiration.</p>
             </div>
             <div className="p-6 pt-0">
-              <a href="https://remaill.github.io/website-vitagerd/" target="_blank" rel="noopener noreferrer">
+              <a href="https://hehe-animelist.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button
                   className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40"
                   type="button"
@@ -47,8 +47,8 @@ const Work = () => {
               <Image
                 src="/asset/gallery_ads/ads.jpg"
                 alt="Google Ads & Meta Ads"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
             <div className="p-6 h-auto md:h-60">
@@ -78,8 +78,8 @@ const Work = () => {
               <Image
                 src="/asset/image/camera.jpg"
                 alt="Photograpy"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
             
@@ -111,8 +111,8 @@ const Work = () => {
               <Image
                 src="/asset/image/movies.jpg"
                 alt="Web Search Movie"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
             
@@ -144,8 +144,8 @@ const Work = () => {
               <Image
                 src="/asset/gallery_smudge/11.jpg"
                 alt="Smudge Painting"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
             <div className="p-6 h-auto md:h-60">
@@ -177,8 +177,8 @@ const Work = () => {
               <Image
                 src="/asset/gallery_design/16.jpg"
                 alt="Graphic Design"
-                layout="fill"
-                objectFit="cover"
+                fill
+                style={{ objectFit: 'cover' }}
               />
             </div>
             <div className="p-6 h-auto md:h-60">

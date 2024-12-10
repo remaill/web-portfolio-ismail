@@ -33,7 +33,7 @@ const Footer = () => {
             </button>
           </a>
             {/* Linkedin */}
-      <a href="https://www.linkedin.com/in/muhamad-ismail-12518b244/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/remaill/" target="_blank" rel="noopener noreferrer">
         <button
           type="button"
           data-te-ripple-init
@@ -63,7 +63,7 @@ const Footer = () => {
       </a>
 
       {/* Facebook */}
-      <a href="https://web.facebook.com/profile.php?id=100006444006658&locale=id_ID" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/profile.php?id=100006444006658&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
         <button
           type="button"
           data-te-ripple-init

@@ -22,9 +22,7 @@ const page = () => {
                 alt={`Gallery Image ${index + 1}`}
                 className="block h-full w-full rounded-lg object-cover object-center"
                 src={`/asset/gallery_ads/${image}`}
-                width={500} // Sesuaikan dimensi
-                height={500} // Sesuaikan dimensi
-                layout="responsive"
+                fill
               />
             </div>
           </div>

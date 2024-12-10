@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { UserCircle, LinkedinLogo, InstagramLogo, GithubLogo, FacebookLogo, YoutubeLogo, House, BookOpenText, Briefcase, Wrench, EnvelopeSimple, List, EyeSlash } from '@phosphor-icons/react';
-import TranslateButton from '../TranslateButton/TranslateButton';
 
 const SideBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -52,13 +51,13 @@ const SideBar = () => {
           <a href="https://github.com/remaill" target='_blank'>
           <GithubLogo size={40} weight="fill" className='bg-slate-700 rounded-md p-1 hover:bg-cyan-600 md:p-2'/>
           </a>
-          <a href="https://www.linkedin.com/in/muhamad-ismail-12518b240/" target='_blank'>
+          <a href="https://www.linkedin.com/in/remaill/" target='_blank'>
           <LinkedinLogo size={40} weight="fill" className='bg-slate-700 rounded-md p-1 hover:bg-cyan-600 md:p-2'/>
           </a>
           <a href="https://www.instagram.com/re_maill/" target='_blank'>
           <InstagramLogo size={40} weight="fill" className='bg-slate-700 rounded-md p-1 hover:bg-cyan-600 md:p-2'/>
           </a>
-          <a href="https://web.facebook.com/profile.php?id=100006404006658&locale=id_ID" target='_blank'>
+          <a href="https://www.facebook.com/profile.php?id=100006444006658&mibextid=ZbWKwL" target='_blank'>
           <FacebookLogo size={40} weight="fill" className='bg-slate-700 rounded-md p-1 hover:bg-cyan-600 md:p-2'/></a>
           <a href="https://www.youtube.com/@Kita_dimana" target='_blank'>
           <YoutubeLogo size={40} weight="fill" className='bg-slate-700 rounded-md p-1 hover:bg-cyan-600 md:p-2'/>
