@@ -52,7 +52,7 @@ const SideBar = () => {
           <a href="https://github.com/remaill" target='_blank'>
           <GithubLogo size={40} weight="fill" className='bg-slate-700 rounded-md p-1 hover:bg-cyan-600 md:p-2'/>
           </a>
-          <a href="https://www.linkedin.com/in/muhamad-ismail-12518b240/" target='_blank'>
+          <a href="https://www.linkedin.com/in/muhamad-ismail-12518b244/" target='_blank'>
           <LinkedinLogo size={40} weight="fill" className='bg-slate-700 rounded-md p-1 hover:bg-cyan-600 md:p-2'/>
           </a>
           <a href="https://www.instagram.com/re_maill/" target='_blank'>
