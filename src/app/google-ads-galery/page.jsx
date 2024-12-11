@@ -12,7 +12,7 @@ const page = () => {
     </div>
 
     {/* Kontainer Gallery */}
-    <div className=" p-10">
+    <div className=" p-2 md:p-10">
       <div className="">
         {/* Daftar Gambar */}
         {["Screenshot_2.jpg", "Screenshot_3.jpg", "Screenshot_4.jpg", "Screenshot_5.jpg", "Screenshot_6.jpg", "Screenshot_7.jpg"].map((image, index) => (
