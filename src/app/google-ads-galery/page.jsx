@@ -16,13 +16,14 @@ const page = () => {
       <div className="">
         {/* Daftar Gambar */}
         {["Screenshot_2.jpg", "Screenshot_3.jpg", "Screenshot_4.jpg", "Screenshot_5.jpg", "Screenshot_6.jpg", "Screenshot_7.jpg"].map((image, index) => (
-          <div key={index} className=" mb-8 rounded-md shadow-sm">
+          <div key={index} className="w-full flex-wrap mb-8 rounded-md shadow-sm">
             <div className="w-full">
               <Image
                 alt={`Gallery Image ${index + 1}`}
                 className="block h-full w-full rounded-lg object-cover object-center"
                 src={`/asset/gallery_ads/${image}`}
-                fill
+                width={5000} // Atur sesuai kebutuhan
+                height={5000} // Atur sesuai kebutuhan
               />
             </div>
           </div>

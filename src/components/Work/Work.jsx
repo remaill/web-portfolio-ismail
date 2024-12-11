@@ -153,8 +153,9 @@ const Work = () => {
                 Smudge Painting
               </h5>
               <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-              I created Smudge Painting Portrait without AI using Photoshop. However, now that AI has developed, I stopped because the market demand has decreased.
+              I created Smudge Painting Portrait without AI using Photoshop.
               </p>
+              <p className="block font-sans text-sm font-light leading-relaxed text-inherit antialiased mt-2">* However, now that AI has developed, I stopped because the market demand has decreased.</p>
             </div>
             <div className="p-6 pt-0">
               <Link href={"/gallery-smudge"} target="_blank" rel="noopener noreferrer">
