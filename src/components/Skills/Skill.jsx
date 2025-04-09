@@ -89,7 +89,15 @@ const Skills = () => {
           <Image src="/asset/icon/meta.png" alt="Meta Ads" width={50} height={50} className="object-fill" />
           <p className="text-sm mt-6 font-bold text-gray-600">Meta Ads</p>
         </div>
+
+         {/* Tiktok Ads Skill */}
+        <div className="flex flex-col justify-center items-center w-24 h-32 overflow-hidden p-4 bg-white rounded-lg shadow-md">
+          <Image src="/asset/icon/tiktok.webp" alt="Meta Ads" width={50} height={50} className="object-fill" />
+          <p className="text-sm mt-3 font-bold text-gray-600">Tiktok Ads</p>
+        </div>
+
       </div>
+      
 
       <p className="mb-4 mt-3 text-gray-800 font-semibold">Another Basic Skills</p>
 
