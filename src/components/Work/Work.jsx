@@ -60,7 +60,7 @@ const Work = () => {
               </p>
             </div>
             <div className="p-6 pt-0">
-              <Link href={"/google-ads-galery"} target="_blank" rel="noopener noreferrer">
+              <Link href={"https://drive.google.com/drive/folders/1t0mQ1qxokxBPQXrWGykN055VvPw8R42I?usp=drive_link"} target="_blank" rel="noopener noreferrer">
                 <button
                   className="select-none rounded-lg bg-cyan-600 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40"
                   type="button"

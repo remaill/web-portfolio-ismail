@@ -9,7 +9,7 @@ const AboutMe = () => {
      <section className="p-5 bg-white rounded-lg shadow-xl mb-10">
       <h1 className="text-4xl font-bold mb-4">About me</h1>
       <p className="text-gray-600 mb-8 md:pr-5">
-      I am an experienced advertiser who is also interested and self-taught in programming and photography. With my skills as a web developer, I can create attractive websites. Proficiency in graphic design software such as Photoshop, Illustrator, and Canva enriches my advertising creativity. In addition, basic skills in video software such as Premiere Pro, After Effects, and Blender 3D add dimension to my marketing strategy, creating dynamic and impactful visual content.
+      I am an experienced advertiser with a strong interest in programming web development & photography. Proficient in basic graphic design (Photoshop, Illustrator, Canva) and video editing (Premiere Pro, After Effects, CapCut) to create marketing strategies that are both creative and effective.
       </p>
 
       <div className="flex flex-col md:flex-row gap-8 justify-start ">
